@@ -1,0 +1,17 @@
+table,
+tr,
+td,
+th {
+    border: 2px solid red;
+}
+
+th,
+td {
+    padding: 5px 12px;
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: auto;
+    
+}
