@@ -28,9 +28,9 @@ Whether you are part of the class or an external viewer, this repository is your
 - **Week 11-12:** Full-Stack Capstone Projects
 
   ## 👨‍🎓 Students of Booster Class - Batch 05
-- [Muhammad Zareen (MS Computer Science)](github.com/muhammadzareensb)
-- [Arshid Ali (AI Chat Bot Engineer)](github.com/aalee9263)
-- [Syed Umair (BS Mathematics)](github.com/xyedumair)
+- [Muhammad Zareen (MS Computer Science)](https://github.com/muhammadzareensb)
+- [Arshid Ali (AI Chat Bot Engineer)](https://github.com/aalee9263)
+- [Syed Umair (BS Mathematics)](https://github.com/xyedumair)
 - [Umer Hayat (BS Computer Science)](github.com/itsumer92)
 
 ## 📂 Folder Structure
