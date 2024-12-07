@@ -29,8 +29,8 @@ Whether you are part of the class or an external viewer, this repository is your
 
   ## 👨‍🎓 Students of Booster Class - Batch 05
 - [Muhammad Zareen (MS Computer Science)](github.com/muhammadzareensb)
-- [Arshid Ali (AI Chat Bot Engineer)] (github.com/aalee9263)
-- [Syed Umair (BS Mathematics)] (github.com/xyedumair)
+- [Arshid Ali (AI Chat Bot Engineer)](github.com/aalee9263)
+- [Syed Umair (BS Mathematics)](github.com/xyedumair)
 - [Umer Hayat (BS Computer Science)](github.com/itsumer92)
 
 ## 📂 Folder Structure
