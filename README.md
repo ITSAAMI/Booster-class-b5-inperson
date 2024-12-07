@@ -18,7 +18,7 @@ Whether you are part of the class or an external viewer, this repository is your
 - Full-Stack Frameworks: MERN/MEAN stacks
 - Other Tools: Git, Bootstrap 4 and more
 
-  📅 Weekly Schedule
+  ## 📅 Weekly Schedule
 
 - **Week 1-2:** Core Concepts of Web Development (HTML, CSS, Bootstrap)
 - **Week 3-4:** JavaScript and DOM Manipulation
@@ -32,18 +32,18 @@ Whether you are part of the class or an external viewer, this repository is your
   Syed Amir Hayat Kakakhel Teacher
 
 ## 📂 Folder Structure
-  📂 Booster-Class-B5-InPerson/
-├── 📁 Week-1
-│   ├── 📄 Lecture1-Intro.html
-│   ├── 📄 Lecture2-CSS.css
-├── 📁 Week-2
-│   ├── 📄 JavaScript-Basics.js
-├── 📁 Projects
-│   ├── 📂 Team-Project1
-│   ├── 📂 Team-Project2
-├── 📁 Resources
-│   ├── 📄 CheatSheets.pdf
-│   ├── 📄 Reference-Links.md
+  📂 Booster-Class-B5-InPerson/ <br>
+├── 📁 Week-1 <br>
+│   ├── 📄 Lecture1-Intro.html <br>
+│   ├── 📄 Lecture2-CSS.css <br>
+├── 📁 Week-2 <br>
+│   ├── 📄 JavaScript-Basics.js <br>
+├── 📁 Projects <br>
+│   ├── 📂 Team-Project1 <br>
+│   ├── 📂 Team-Project2 <br>
+├── 📁 Resources <br>
+│   ├── 📄 CheatSheets.pdf <br>
+│   ├── 📄 Reference-Links.md <br>
 └── README.md
 
 ## 🤝 How to Contribute
@@ -61,9 +61,9 @@ We encourage active participation! Feel free to:
 ## 🌍 Contact
 For inquiries or further information:
 
-Instructor: [Syed Amir Hayat Kakakhel](https://github.com/ITSAAMI) 
-Organization: [Logic Gigs Pvt. Ltd](https://github.com/logicgigs)
-Location: Hakeemabad, Nowshera
+Instructor: [Syed Amir Hayat Kakakhel](https://github.com/ITSAAMI) <br>
+Organization: [Logic Gigs Pvt. Ltd](https://github.com/logicgigs) <br>
+Location: Hakeemabad, Nowshera <br>
 Happy coding! 🎉
 
 
