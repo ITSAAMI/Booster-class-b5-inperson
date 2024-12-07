@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            counter-reset: chapter;
+        }
+        h1{
+            counter-reset: topic;
+        }
+        h1::before {
+            content: counter(chapter) ":  ";
+            counter-increment: chapter;
+        }
+        h2::before{
+            content: counter(chapter) "." counter(topic) ": ";
+            counter-increment: topic;
+
+        }
+        h2{
+            counter-reset: sub-topic;
+        }
+        h3::before{
+            content: counter(chapter) "." counter(topic) "." counter(sub-topic) ": ";
+            counter-increment: sub-topic;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <h1>Computer Networking</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h2>Local Area Network</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h2>Metrapolition Area Network</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h2>Wide Area Network</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h2>Personal Area Network</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h2>Virtual Private Network</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h1>System Unit</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h2>Central Processing Unit</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h3>Arithmitic Logic Unit</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h3>Control Unit</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h3>Registers</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h2>RAM</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h2>Mother Board</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+    <h2>Hard Disk Drive</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente magni animi natus ad temporibus quod perferendis reprehenderit cumque laborum? Officia beatae laudantium voluptates saepe voluptas sint modi minima excepturi!</p>
+ 
+</body>
+
+</html>
