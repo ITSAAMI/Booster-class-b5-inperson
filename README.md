@@ -27,9 +27,11 @@ Whether you are part of the class or an external viewer, this repository is your
 - **Week 9-10:** Database Integration and APIs
 - **Week 11-12:** Full-Stack Capstone Projects
 
-  ## 🧑‍💻 Meet the Developers
-
-  Syed Amir Hayat Kakakhel Teacher
+  ## 👨‍🎓 Students of Booster Class - Batch 05
+- [Muhammad Zareen (MS Computer Science)](github.com/muhammadzareensb)
+- [Arshid Ali (AI Chat Bot Engineer)] (github.com/aalee9263)
+- [Syed Umair (BS Mathematics)] (github.com/xyedumair)
+- [Umer Hayat (BS Computer Science)](github.com/itsumer92)
 
 ## 📂 Folder Structure
   📂 Booster-Class-B5-InPerson/ <br>
