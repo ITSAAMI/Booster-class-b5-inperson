@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar - B05</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            background-color: #000;
+            /* color: #fff; */
+            overflow: hidden;
+            height: 10vh;
+        }
+
+        li {
+            list-style-type: none;
+            float: left;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            font-size: 2rem;
+            padding: 14px 30px;
+        }
+
+        a:hover {
+            background-color: yellow;
+            border-radius: 5px;
+            color: #000;
+        }
+
+        section {
+            width: 100vw;
+            height: 90vh;
+            background-color: black;
+        }
+        .dropdown{
+            display: inline-block;
+
+        }
+        .dropdown .dropbtn{
+
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            z-index: 1;
+
+
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+
+        /* .dropdown-content a:hover {background-color: #f1f1f1;} */
+
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Download</a>
+
+            <div class="dropdown-content">
+                <a href="#">Instriction Manual</a>
+                <a href="#">Registartion Form</a>
+            </div>
+        </li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a>
+
+        </li>
+    </ul>
+    <section>
+
+
+    </section>
+
+</body>
+
+</html>
