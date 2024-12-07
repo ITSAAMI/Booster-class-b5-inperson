@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header, .footer {
+            height: 10vh; /* 10% of viewport height */
+            width: 100vw; /* 100% of viewport width */
+            background-color: #ccc;
+            text-align: center;
+            line-height: 10vh; /* Vertically centers text */
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+        .main {
+            height: 70vh; /* 70% of viewport height */
+            width: 100vw; /* 100% of viewport width */
+            display: flex;
+            border: 1px solid black;
+        }
+
+        .left, .right {
+            width: 20vw; /* 20% of viewport width */
+            height: 70vh; /* Matches main content height */
+            background-color: #eee;
+            text-align: center;
+            line-height: 70vh; /* Vertically centers text */
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+        .center {
+            width: 60vw; /* 60% of viewport width */
+            height: 70vh; /* Matches main content height */
+            background-color: #fff;
+            text-align: center;
+            line-height: 70vh; /* Vertically centers text */
+            font-weight: bold;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        h10vh w100vw
+    </div>
+    <!-- Second Header Section -->
+    <div class="header">
+        h10vh w100vw
+    </div>
+    <!-- Main Content Section -->
+    <div class="main">
+        <!-- Left Sidebar -->
+        <div class="left">
+            w20vw
+        </div>
+        <!-- Center Content -->
+        <div class="center">
+            w60vw h70vh
+        </div>
+        <!-- Right Sidebar -->
+        <div class="right">
+            w20vw
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer">
+        h10vh w100vw
+    </div>
+</body>
+</html>
